@@ -62,6 +62,8 @@ $ yarn dev
 - `generate`: create a new component structured
 - `storybook`: runs storybook on `localhost:6006`
 - `storybook:build`: create the build version of storybook
+- `prepare`: husky install
+- `commit`: commit using commitizen
 
 ## :memo: License
 
