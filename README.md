@@ -3,16 +3,16 @@
 </h1>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/davigl/nextjs-boilerplate.svg">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/davigl/nextjs-boilerplate.svg">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/davigl/nextjs-boilerplate.svg">
-  <a href="https://github.com/davigl/nextjs-boilerplate/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/davigl/nextjs-boilerplate.svg">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/davigl/next.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/davigl/next.svg">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/davigl/next.svg">
+  <a href="https://github.com/davigl/next/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/davigl/next.svg">
   </a>
-  <a href="https://github.com/davigl/nextjs-boilerplate/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/davigl/nextjs-boilerplate.svg">
+  <a href="https://github.com/davigl/next/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/davigl/next.svg">
   </a>
-  <img alt="GitHub" src="https://img.shields.io/github/license/davigl/nextjs-boilerplate.svg">
+  <img alt="GitHub" src="https://img.shields.io/github/license/davigl/next.svg">
 </p>
 
 <p align="center">
@@ -33,8 +33,11 @@ This project was developed with the following technologies:
 - [Styled components](https://styled-components.com/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Plop](https://github.com/plopjs/plop)
-- [next-auth](https://next-auth.js.org/)
+- [Next-Auth](https://next-auth.js.org/)
 - [Prisma](https://github.com/prisma/prisma)
+- [Commitlint](https://github.com/conventional-changelog/commitlint)
+- [Commitizen](https://github.com/commitizen/cz-cli)
+- [Yup](https://github.com/jquense/yup)
 
 ## :information_source: How To Use
 
