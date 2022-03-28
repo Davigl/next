@@ -4,10 +4,6 @@ type GenericContextData = {};
 
 export const GenericContext = createContext({} as GenericContextData);
 
-export const useGeneric = () => {
-  return useContext(GenericContext);
-};
-
 type GenericContextProviderProps = {
   children: JSX.Element;
 };
@@ -19,3 +15,7 @@ export function GenericContextProvider({
     <GenericContext.Provider value={{}}>{children}</GenericContext.Provider>
   );
 }
+
+export const useGeneric = () => {
+  return useContext(GenericContext);
+};
