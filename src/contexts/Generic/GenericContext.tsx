@@ -1,8 +1,8 @@
 import { createContext, useContext } from "react";
 
-type GenericContextData = {};
+const GenericContext = createContext({} as GenericContextData);
 
-export const GenericContext = createContext({} as GenericContextData);
+type GenericContextData = {};
 
 type GenericContextProviderProps = {
   children: JSX.Element;
