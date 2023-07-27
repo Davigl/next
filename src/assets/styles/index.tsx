@@ -1,13 +1,13 @@
-import Base from "./generic/Base";
-import Reset from "./generic/Reset";
+import { Base, Reset, Theme } from './configs'
 
-const GlobalStyles = (): JSX.Element => {
+const GlobalStyles: React.FC<{ children: JSX.Element }> = ({ children }) => {
   return (
     <>
       <Reset />
       <Base />
+      <Theme>{children}</Theme>
     </>
-  );
-};
+  )
+}
 
-export default GlobalStyles;
+export { GlobalStyles }

@@ -1,1 +1,1 @@
-export * from "./Generic/GenericContext";
+export * from './Generic/GenericContext'
